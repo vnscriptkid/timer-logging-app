@@ -1,0 +1,99 @@
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.heading {
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 5px;
+  font: inherit;
+  font-size: 130%;
+}
+
+/* button */
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background: white;
+  font-size: 130%;
+  cursor: pointer;
+}
+
+.btn--bl-radius {
+  border-bottom-left-radius: 5px;
+}
+
+.btn--br-radius {
+  border-bottom-right-radius: 5px;
+}
+
+.btn--half {
+  width: 50%;
+}
+
+.btn--blue {
+  border: 1px solid blue;
+  color: blue;
+}
+
+.btn--red {
+  border: 1px solid red;
+  color: red;
+}
+
+/* timer */
+
+.timer {
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 400px;
+  box-sizing: border-box;
+}
+
+.timer--padding-20 {
+  padding: 20px;
+}
+
+.timer__title {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.timer__project {
+  font-size: 170%;
+  color: gray;
+}
+
+.timer__elapsed {
+  text-align: center;
+  font-weight: bolder;
+  color: gray;
+  font-size: 250%;
+}
+
+.timer__functions {
+  text-align: right;
+}
+
+.timer__functions > i {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.timer__form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.timer__form-group > label {
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
